@@ -12645,7 +12645,7 @@ DX := FALSE;]]></ST>
     <Action Name="ACT11_" Id="{fa669ee9-790e-484c-9580-b292c267c5f4}">
       <Implementation>
         <ST><![CDATA[DX := TRUE;
-TIMER2(IN := TRUE, PT := T_ALLARME2);]]></ST>
+]]></ST>
       </Implementation>
     </Action>
     <Action Name="ACT12" Id="{105c6e03-63ea-4ea8-9fdf-ece3abe97d8b}">
@@ -12752,7 +12752,7 @@ SU := FALSE;]]></ST>
       <Implementation>
         <ST><![CDATA[SX := FALSE;
 ALLARME := FALSE;
-TIMER2(IN := FALSE, PT := T_ALLARME2);]]></ST>
+]]></ST>
       </Implementation>
     </Action>
     <Transition Name="Partenza" Id="{a4e2dcc4-e16c-40da-98d8-3cf76ee3b8ca}">
